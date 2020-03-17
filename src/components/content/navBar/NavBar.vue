@@ -9,7 +9,7 @@
       :fixed="isFixed"
       :z-index="'999'"
     >
-    
+
     </van-nav-bar>
   </div>
 </template>
@@ -21,13 +21,13 @@ Vue.use(Icon).use(NavBar);
 export default {
   data(){
     return {
-    
+
     }
   },
   props: {
     title: {
       type: String,
-      default: "购物街"
+      default: "态度商城"
     },
     leftText: {
       type: String,
